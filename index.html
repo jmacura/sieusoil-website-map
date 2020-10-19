@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Agrihub - HS Layers</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+  <div style="height:30em; width: 100%">
+    <div id="hs-app" hs ng-app="hs" ng-controller="Main" style="position: relative; width: 100%; height: 100%; padding: 0; border: 0; margin: 0;"> </div>
+  </div>
+
+<script>
+    window.HSL_PATH = 'https://unpkg.com/hslayers-ng@1.24.3/dist/';
+
+    function getLRUser() {
+      return (0);
+    }
+
+    function styleFunction(feature, resolution) {
+      return new ol.style.Style({
+        image: new ol.style.Circle({
+          fill: new ol.style.Fill({
+            color: '#32a4c9',
+          }),
+          stroke: new ol.style.Stroke({
+            color: '#FFFFFF',
+            width: 3,
+          }),
+          radius: 9,
+        }),
+      });
+    }
+
+    function hslayersNgConfig(ol) {
+      return {
+        sizeMode: 'container',
+        sidebarClosed: true,
+        useIsolatedBootstrap: true,
+        useProxy: false,
+        //proxyPrefix: "/proxy/",
+        popUpDisplay: 'click',
+        zoomWithModifierKeyOnly: true,
+        componentsEnabled: {
+          sidebar: false,
+          toolbar: false,
+          geolocationButton: false,
+        },
+        default_layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM({
+              url: 'https://cartodb-basemaps-{a-d}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+              attributions: [
+                '<a href="https://carto.com/attributions" target="_blank">CARTO</a>',
+                '© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+              ]
+            }),
+            title: 'OpenStreetMap bright',
+            base: true,
+            visible: true,
+            removable: false
+          }),
+          new ol.layer.Vector({
+            title: 'Členové',
+            style: styleFunction,
+            popUp: {
+              attributes: [
+                {
+                  attribute: 'logo', displayFunction: (x) => {
+                    return '<img src="https://www.plan4all.eu/wp-content/uploads/' + x + '" width="100rem" >';
+                  }
+                },
+                {
+                  attribute: 'website', label: 'web', displayFunction: (x) => {
+                    return '<a href="' + x + '" target="_blank">' + x + '</a>';
+                  }
+                }
+              ]
+            },
+            editor: {
+              editable: false,
+            },
+            source: new ol.source.Vector({
+              format: new ol.format.GeoJSON(),
+              url: 'https://raw.githubusercontent.com/jmacura/agrihub-website-map/main/data/Agrihub.cz_Members.geojson'//'./data/Plan4All_Members.geojson'
+            }),
+            cluster: false
+          })
+        ],
+        default_view: new ol.View({
+          center: ol.proj.fromLonLat([15.5, 50]),
+          zoom: 7.5,
+          units: 'm'
+        }),
+        queryPoint: 'hidden'
+      }
+    }
+</script>
+<script src='https://unpkg.com/hslayers-ng@1.24.3/dist/hslayers-ng.main.js'></script> <!-- ./lib/hslayers-ng.main.js -->
+
+</body>
+</html>
