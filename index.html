@@ -14,7 +14,7 @@
   </div>
 
 <script>
-    window.HSL_PATH = 'https://unpkg.com/hslayers-ng@1.24.3/dist/';
+    window.HSL_PATH = './lib/'; //'https://unpkg.com/hslayers-ng@1.24.3/dist/';
 
     function getLRUser() {
       return (0);
@@ -22,15 +22,9 @@
 
     function styleFunction(feature, resolution) {
       return new ol.style.Style({
-        image: new ol.style.Circle({
-          fill: new ol.style.Fill({
-            color: '#32a4c9',
-          }),
-          stroke: new ol.style.Stroke({
-            color: '#FFFFFF',
-            width: 3,
-          }),
-          radius: 9,
+        image: new ol.style.Icon({
+          src: 'SIEUSOIL_logo.png',
+          scale: 0.08
         }),
       });
     }
@@ -99,7 +93,8 @@
       }
     }
 </script>
-<script src='https://unpkg.com/hslayers-ng@1.24.3/dist/hslayers-ng.main.js'></script> <!-- ./lib/hslayers-ng.main.js -->
+<script src='./lib/hslayers-ng.main.js'></script>
+<!--script src='https://unpkg.com/hslayers-ng@1.24.3/dist/hslayers-ng.main.js'></script-->
 
 </body>
 </html>
