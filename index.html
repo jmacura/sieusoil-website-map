@@ -23,8 +23,9 @@
     function styleFunction(feature, resolution) {
       return new ol.style.Style({
         image: new ol.style.Icon({
+          anchor: [0.5, 1],
           src: 'sieusoil_pin.png',
-          scale: 0.08
+          scale: 0.1
         }),
       });
     }
