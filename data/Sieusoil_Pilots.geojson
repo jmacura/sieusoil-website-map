@@ -31,7 +31,7 @@
         "name": "UGENT & AGRISAT",
         "website": ""
       },
-      "geometry": { "type": "Point", "coordinates": [4, 40] }
+      "geometry": { "type": "Point", "coordinates": [-4, 40] }
     },
     {
       "type": "Feature",
