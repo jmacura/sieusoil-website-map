@@ -23,7 +23,7 @@
     function styleFunction(feature, resolution) {
       return new ol.style.Style({
         image: new ol.style.Icon({
-          src: 'SIEUSOIL_logo.png',
+          src: 'sieusoil_pin.png',
           scale: 0.08
         }),
       });
@@ -62,11 +62,7 @@
             style: styleFunction,
             popUp: {
               attributes: [
-                {
-                  attribute: 'logo', displayFunction: (x) => {
-                    return '<img src="https://www.plan4all.eu/wp-content/uploads/' + x + '" width="100rem" >';
-                  }
-                },
+                "pilot_id",
                 {
                   attribute: 'website', label: 'web', displayFunction: (x) => {
                     return '<a href="' + x + '" target="_blank">' + x + '</a>';
@@ -85,8 +81,8 @@
           })
         ],
         default_view: new ol.View({
-          center: ol.proj.fromLonLat([15.5, 50]),
-          zoom: 7.5,
+          center: ol.proj.fromLonLat([63, 41]),
+          zoom: 3,
           units: 'm'
         }),
         queryPoint: 'hidden'
