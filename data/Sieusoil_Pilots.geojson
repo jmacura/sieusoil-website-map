@@ -72,15 +72,6 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 7",
-        "name": "AUTH",
-        "website": ""
-      },
-      "geometry": { "type": "Point", "coordinates": [0, 0] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "pilot_id": "CHINA 1",
         "name": "IEDSA/CAAS",
         "website": ""
