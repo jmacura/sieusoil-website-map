@@ -37,7 +37,6 @@
         useIsolatedBootstrap: true,
         useProxy: false,
         //proxyPrefix: "/proxy/",
-        popUpDisplay: 'click',
         zoomWithModifierKeyOnly: true,
         componentsEnabled: {
           sidebar: false,
@@ -61,16 +60,6 @@
           new ol.layer.Vector({
             title: 'Members',
             style: styleFunction,
-            popUp: {
-              attributes: [
-                "pilot_id",
-                {
-                  attribute: 'website', label: 'web', displayFunction: (x) => {
-                    return '<a href="' + x + '" target="_blank">' + x + '</a>';
-                  }
-                }
-              ]
-            },
             editor: {
               editable: false,
             },
