@@ -9,16 +9,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 1",
-        "name": "VITO",
-        "website": ""
-      },
-      "geometry": { "type": "Point", "coordinates": [4.38, 51.04] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "pilot_id": "EU 2",
+        "pilot_id": "EU 4",
         "name": "LESP",
         "website": "http://www.lesprojekt.cz"
       },
@@ -27,7 +18,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 3",
+        "pilot_id": "EU 3 & EU 7",
         "name": "UGENT & AGRISAT",
         "website": ""
       },
@@ -36,8 +27,8 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 3",
-        "name": "UGENT & AGRISAT",
+        "pilot_id": "EU 1 & EU 3 & EU 7",
+        "name": "UGENT & AGRISAT & VITO",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [3.7250, 51.0538] }
@@ -45,11 +36,11 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 4",
+        "pilot_id": "EU 2 & EU 7",
         "name": "PLAN4ALL",
         "website": "https://www.plan4all.eu/"
       },
-      "geometry": { "type": "Point", "coordinates": [13.3662336, 49.8426847] }
+      "geometry": { "type": "Point", "coordinates": [16.9642, 49.2390] }
     },
     {
       "type": "Feature",
@@ -81,7 +72,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "CHINA 2",
+        "pilot_id": "CHINA 3",
         "name": "ISSCAS",
         "website": ""
       },
@@ -90,7 +81,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "CHINA 3",
+        "pilot_id": "CHINA 2",
         "name": "ISSCAS",
         "website": ""
       },
