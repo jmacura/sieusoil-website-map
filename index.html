@@ -7,14 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" href="https://unpkg.com/hslayers-ng-app@4.0.0/styles.css">
 </head>
 <body>
-  <div style="height:30em; width: 100%">
-    <hs id="hs-app" ng-app="hs" style="position: relative; width: 100%; height: 100%; padding: 0; border: 0; margin: 0;"></hs>
+  <div style="height: 30em; width: 100%">
+    <hslayers-app id="hs-app" style="position: relative; width: 100%; height: 100%; padding: 0; border: 0; margin: 0;"></hslayers-app>
   </div>
 
 <script>
-    window.HSL_PATH = 'https://unpkg.com/hslayers-ng@1.26.0/dist/'; //'./lib/'; 
+    //window.HSL_PATH = 'https://unpkg.com/hslayers-ng@1.27.0/dist/'; //'./lib/'; 
 
     function getLRUser() {
       return (0);
@@ -32,17 +33,21 @@
 
     function hslayersNgConfig(ol) {
       return {
-        sizeMode: 'container',
-        sidebarClosed: true,
-        useIsolatedBootstrap: true,
+        //sizeMode: 'container',
+        assetsPath: 'https://unpkg.com/hslayers-ng-app@4.0.0/assets/',
+        //sidebarClosed: true,
+        //useIsolatedBootstrap: true,
         useProxy: false,
         //proxyPrefix: "/proxy/",
         zoomWithModifierKeyOnly: true,
         componentsEnabled: {
+          guiOverlay: false,
+          basemapGallery: false,
           sidebar: false,
           toolbar: false,
           geolocationButton: false,
         },
+        popUpDisplay: 'hover',
         default_layers: [
           new ol.layer.Tile({
             source: new ol.source.OSM({
@@ -67,7 +72,13 @@
               format: new ol.format.GeoJSON(),
               url: 'https://raw.githubusercontent.com/jmacura/sieusoil-website-map/main/data/Sieusoil_Pilots.geojson'
             }),
-            cluster: false
+            cluster: false,
+            popUp: {
+              attributes: [{
+                attribute: 'pilot_id',
+                label: 'PILOT'
+              }]
+            }
           })
         ],
         default_view: new ol.View({
@@ -80,7 +91,12 @@
     }
 </script>
 <!--script src='./lib/hslayers-ng.main.js'></script-->
-<script src='https://unpkg.com/hslayers-ng@1.26.0/dist/hslayers-ng.main.js'></script>
+<!--script src='https://unpkg.com/hslayers-ng@1.27.0/dist/hslayers-ng.main.js'></script-->
+<script src="https://unpkg.com/hslayers-ng-app@4.0.0/runtime.js"></script>
+<script src="https://unpkg.com/hslayers-ng-app@4.0.0/polyfills-es5.js"></script>
+<script src="https://unpkg.com/hslayers-ng-app@4.0.0/polyfills.js"></script>
+<script src="https://unpkg.com/hslayers-ng-app@4.0.0/vendor.js"></script><!-- Must be included since 4.x -->
+<script src="https://unpkg.com/hslayers-ng-app@4.0.0/main.js"></script>
 
 </body>
 </html>
