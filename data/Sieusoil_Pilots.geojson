@@ -9,7 +9,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 4",
+        "title": "EU 4",
         "org": "LESP",
         "website": "http://www.lesprojekt.cz"
       },
@@ -18,7 +18,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 3 & EU 7",
+        "title": "EU 3 & EU 7",
         "org": "UGENT & AGRISAT",
         "website": ""
       },
@@ -27,7 +27,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 1 & EU 3 & EU 7",
+        "title": "EU 1 & EU 3 & EU 7",
         "org": "UGENT & AGRISAT & VITO",
         "website": ""
       },
@@ -36,7 +36,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 2 & EU 7",
+        "title": "EU 2 & EU 7",
         "org": "PLAN4ALL",
         "website": "https://www.plan4all.eu/"
       },
@@ -45,7 +45,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 5",
+        "title": "EU 5",
         "org": "UP",
         "website": ""
       },
@@ -54,7 +54,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "EU 6",
+        "title": "EU 6",
         "org": "AUTH & KEFALAS",
         "website": ""
       },
@@ -63,7 +63,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "CHINA 1",
+        "title": "CHINA 1",
         "org": "IEDSA/CAAS",
         "website": ""
       },
@@ -72,7 +72,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "CHINA 3",
+        "title": "CHINA 3",
         "org": "ISSCAS",
         "website": ""
       },
@@ -81,7 +81,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "CHINA 2",
+        "title": "CHINA 2",
         "org": "ISSCAS",
         "website": ""
       },
@@ -90,7 +90,7 @@
     {
       "type": "Feature",
       "properties": {
-        "pilot_id": "CHINA 4",
+        "title": "CHINA 4",
         "org": "TU",
         "website": ""
       },
