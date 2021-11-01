@@ -10,7 +10,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "EU 4",
-        "name": "LESP",
+        "org": "LESP",
         "website": "http://www.lesprojekt.cz"
       },
       "geometry": { "type": "Point", "coordinates": [14.6326285, 50.2141452] }
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "EU 3 & EU 7",
-        "name": "UGENT & AGRISAT",
+        "org": "UGENT & AGRISAT",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [-4, 40] }
@@ -28,7 +28,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "EU 1 & EU 3 & EU 7",
-        "name": "UGENT & AGRISAT & VITO",
+        "org": "UGENT & AGRISAT & VITO",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [3.7250, 51.0538] }
@@ -37,7 +37,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "EU 2 & EU 7",
-        "name": "PLAN4ALL",
+        "org": "PLAN4ALL",
         "website": "https://www.plan4all.eu/"
       },
       "geometry": { "type": "Point", "coordinates": [16.9642, 49.2390] }
@@ -46,7 +46,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "EU 5",
-        "name": "UP",
+        "org": "UP",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [17.2463, 46.7675] }
@@ -55,7 +55,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "EU 6",
-        "name": "AUTH & KEFALAS",
+        "org": "AUTH & KEFALAS",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [22.9353, 40.6403] }
@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "CHINA 1",
-        "name": "IEDSA/CAAS",
+        "org": "IEDSA/CAAS",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [116.47, 35.52] }
@@ -73,7 +73,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "CHINA 3",
-        "name": "ISSCAS",
+        "org": "ISSCAS",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [120.73, 32.55] }
@@ -82,7 +82,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "CHINA 2",
-        "name": "ISSCAS",
+        "org": "ISSCAS",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [122.91, 45.66] }
@@ -91,7 +91,7 @@
       "type": "Feature",
       "properties": {
         "pilot_id": "CHINA 4",
-        "name": "TU",
+        "org": "TU",
         "website": ""
       },
       "geometry": { "type": "Point", "coordinates": [87.84, 42.92] }
