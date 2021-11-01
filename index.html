@@ -77,7 +77,8 @@
             popUp: {
               attributes: [{
                 attribute: 'pilot_id',
-                label: 'PILOT'
+                label: 'PILOT',
+                displayFunction: (x) => x.join(' & ')
               }]
             }
           })

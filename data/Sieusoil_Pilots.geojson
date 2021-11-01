@@ -10,6 +10,7 @@
       "type": "Feature",
       "properties": {
         "title": "EU 4",
+        "pilot_ids_links": ["EU 4"],
         "org": "LESP",
         "website": "http://www.lesprojekt.cz"
       },
@@ -19,6 +20,7 @@
       "type": "Feature",
       "properties": {
         "title": "EU 3 & EU 7",
+        "pilot_ids_links": ["EU 3", "EU 7"],
         "org": "UGENT & AGRISAT",
         "website": ""
       },
@@ -28,6 +30,7 @@
       "type": "Feature",
       "properties": {
         "title": "EU 1 & EU 3 & EU 7",
+        "pilot_ids_links": ["EU 1", "EU 3", "EU 7"],
         "org": "UGENT & AGRISAT & VITO",
         "website": ""
       },
@@ -37,6 +40,7 @@
       "type": "Feature",
       "properties": {
         "title": "EU 2 & EU 7",
+        "pilot_ids_links": ["EU 2", "EU 7"],
         "org": "PLAN4ALL",
         "website": "https://www.plan4all.eu/"
       },
@@ -46,6 +50,7 @@
       "type": "Feature",
       "properties": {
         "title": "EU 5",
+        "pilot_ids_links": ["EU 5"],
         "org": "UP",
         "website": ""
       },
@@ -55,6 +60,7 @@
       "type": "Feature",
       "properties": {
         "title": "EU 6",
+        "pilot_ids_links": ["EU 6"],
         "org": "AUTH & KEFALAS",
         "website": ""
       },
@@ -64,6 +70,7 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 1",
+        "pilot_ids_links": ["CHINA 1"],
         "org": "IEDSA/CAAS",
         "website": ""
       },
@@ -73,6 +80,7 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 3",
+        "pilot_ids_links": ["CHINA 3"],
         "org": "ISSCAS",
         "website": ""
       },
@@ -82,6 +90,7 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 2",
+        "pilot_ids_links": ["CHINA 2"],
         "org": "ISSCAS",
         "website": ""
       },
@@ -91,6 +100,7 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 4",
+        "pilot_ids_links": ["CHINA 4"],
         "org": "TU",
         "website": ""
       },
