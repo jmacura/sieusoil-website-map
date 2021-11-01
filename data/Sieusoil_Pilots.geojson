@@ -10,7 +10,9 @@
       "type": "Feature",
       "properties": {
         "title": "EU 4",
-        "pilot_ids_links": ["EU 4"],
+        "pilot_ids_links": [
+          {"id": "EU 4", "link": "https://hub.sieusoil.eu/eu-pilot-4-plan4all"}
+        ],
         "org": "LESP",
         "website": "http://www.lesprojekt.cz"
       },
@@ -20,7 +22,10 @@
       "type": "Feature",
       "properties": {
         "title": "EU 3 & EU 7",
-        "pilot_ids_links": ["EU 3", "EU 7"],
+        "pilot_ids_links": [
+          {"id": "EU 3", "link": "https://hub.sieusoil.eu/eu-pilot-3-ugent-and-agrisat"},
+          {"id": "EU 7", "link": "https://hub.sieusoil.eu/eu-pilot-7-auth"}
+        ],
         "org": "UGENT & AGRISAT",
         "website": ""
       },
@@ -30,7 +35,11 @@
       "type": "Feature",
       "properties": {
         "title": "EU 1 & EU 3 & EU 7",
-        "pilot_ids_links": ["EU 1", "EU 3", "EU 7"],
+        "pilot_ids_links": [
+          {"id": "EU 1", "link": "https://hub.sieusoil.eu/eu-pilot-1-vito"},
+          {"id": "EU 3", "link": "https://hub.sieusoil.eu/eu-pilot-3-ugent-and-agrisat"},
+          {"id": "EU 7", "link": "https://hub.sieusoil.eu/eu-pilot-7-auth"}
+        ],
         "org": "UGENT & AGRISAT & VITO",
         "website": ""
       },
@@ -40,7 +49,10 @@
       "type": "Feature",
       "properties": {
         "title": "EU 2 & EU 7",
-        "pilot_ids_links": ["EU 2", "EU 7"],
+        "pilot_ids_links": [
+          {"id": "EU 2", "link": "https://hub.sieusoil.eu/eu-pilot-2-rostenice"},
+          {"id": "EU 7", "link": "https://hub.sieusoil.eu/eu-pilot-7-auth"}
+        ],
         "org": "PLAN4ALL",
         "website": "https://www.plan4all.eu/"
       },
@@ -50,7 +62,9 @@
       "type": "Feature",
       "properties": {
         "title": "EU 5",
-        "pilot_ids_links": ["EU 5"],
+        "pilot_ids_links": [
+          {"id": "EU 5", "link": "https://hub.sieusoil.eu/eu-pilot-5-up"}
+        ],
         "org": "UP",
         "website": ""
       },
@@ -60,7 +74,9 @@
       "type": "Feature",
       "properties": {
         "title": "EU 6",
-        "pilot_ids_links": ["EU 6"],
+        "pilot_ids_links": [
+          {"id": "EU 6", "link": "https://hub.sieusoil.eu/auth-kefalas"}
+        ],
         "org": "AUTH & KEFALAS",
         "website": ""
       },
@@ -70,7 +86,9 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 1",
-        "pilot_ids_links": ["CHINA 1"],
+        "pilot_ids_links": [
+          {"id": "CHINA 1", "link": "https://hub.sieusoil.eu/china-pilot-1-iedsa/caas"}
+        ],
         "org": "IEDSA/CAAS",
         "website": ""
       },
@@ -80,7 +98,9 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 3",
-        "pilot_ids_links": ["CHINA 3"],
+        "pilot_ids_links": [
+          {"id": "CHINA 3", "link": "https://hub.sieusoil.eu/china-pilot-2-isscas-1"}
+        ],
         "org": "ISSCAS",
         "website": ""
       },
@@ -90,7 +110,9 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 2",
-        "pilot_ids_links": ["CHINA 2"],
+        "pilot_ids_links": [
+          {"id": "CHINA 2", "link": "https://hub.sieusoil.eu/china-pilot-2-isscas-1"}
+        ],
         "org": "ISSCAS",
         "website": ""
       },
@@ -100,7 +122,9 @@
       "type": "Feature",
       "properties": {
         "title": "CHINA 4",
-        "pilot_ids_links": ["CHINA 4"],
+        "pilot_ids_links": [
+          {"id": "CHINA 4", "link": "https://hub.sieusoil.eu/china-pilot-4-tu"}
+        ],
         "org": "TU",
         "website": ""
       },

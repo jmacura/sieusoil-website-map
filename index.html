@@ -78,7 +78,7 @@
               attributes: [{
                 attribute: 'pilot_ids_links',
                 label: 'PILOT',
-                displayFunction: (x) => x.join(' & ')
+                displayFunction: (x) => x.map((el) => `<a href="${el.link}">${el.id}</a>`).join(' & ')
               }]
             }
           })
